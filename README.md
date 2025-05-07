@@ -1,6 +1,6 @@
 # Identification_of_Fake_Currency_Found_in_India
 
-This project aims to develop machine learning models capable of detecting fake Indian currency notes. The models are built using the ResNet50 architecture, fine-tuned with custom layers for binary classification to distinguish between real and fake notes for denominations of ₹50, ₹100, ₹500, and ₹2000.
+This project aims to develop machine learning models capable of detecting fake Indian currency notes. The models are built using the ResNet50 architecture, fine-tuned with custom layers for binary classification to distinguish between real and fake notes for denominations of ₹50, ₹100 and ₹500.
 
 ## Table of Contents
 
@@ -11,13 +11,11 @@ This project aims to develop machine learning models capable of detecting fake I
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Usage](#usage)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [References](#references)
+- results
 
 ## Introduction
 
-Counterfeit currency is a significant problem in many countries, including India. This project focuses on detecting counterfeit ₹50, ₹100, ₹500, and ₹2000 notes using deep learning techniques. The models are trained on datasets of real and fake currency images and use the ResNet50 architecture for robust feature extraction.
+Counterfeit currency is a significant problem in many countries, including India. This project focuses on detecting counterfeit ₹50, ₹100, ₹500 notes using deep learning techniques. The models are trained on datasets of real and fake currency images and use the ResNet50 architecture for robust feature extraction.
 
 > **Reference:** As highlighted in the paper *"Detection of Fake Indian Currency Using Deep Convolutional Neural Network"* presented at MysuruCon 2023, CNNs combined with ResNet models have shown remarkable accuracy in this domain.
 
@@ -79,6 +77,9 @@ To use a trained model:
 1. Load the model using `load_model('best_model_500.keras')`
 2. Preprocess an input image
 3. Run the prediction function
+results
+
+![Screenshot 2025-05-07 225232](https://github.com/user-attachments/assets/9f987556-dd3a-4059-b10e-65fe473a2478)
 
 ```python
 from tensorflow.keras.preprocessing import image
